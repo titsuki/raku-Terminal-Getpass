@@ -10,6 +10,9 @@ SYNOPSIS
 
     use Terminal::Getpass;
 
+    my $password = getpass;
+    say $password;
+
 DESCRIPTION
 ===========
 

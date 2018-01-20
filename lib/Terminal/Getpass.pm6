@@ -31,6 +31,9 @@ Terminal::Getpass - A getpass implementation for Perl 6
 =head1 SYNOPSIS
 
   use Terminal::Getpass;
+  
+  my $password = getpass;
+  say $password;
 
 =head1 DESCRIPTION
 
