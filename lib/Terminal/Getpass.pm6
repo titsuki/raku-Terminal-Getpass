@@ -7,6 +7,7 @@ sub getpass(Str $prompt = "Password: ", IO::Handle $stream = $*ERR --> Str) is e
     my $old := Term::termios.new(fd => 1).getattr;
     my $new := Term::termios.new(fd => 1).getattr;
 
+    $new.makeraw;
     $new.unset_lflags(<ECHO>);
     $new.setattr(:DRAIN);
     
