@@ -1,5 +1,5 @@
 use v6.c;
-unit module Terminal::Getpass:ver<0.0.2>;
+unit module Terminal::Getpass:ver<0.0.3>;
 
 use Term::termios;
 
