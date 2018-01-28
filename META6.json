@@ -4,7 +4,7 @@
   ],
   "build-depends" : [ ],
   "depends" : [
-    "Term::termios"
+    "Term::termios:auth<github:titsuki>:ver<0.0.1>"
   ],
   "description" : "A getpass implementation for Perl 6",
   "license" : "Artistic-2.0",
