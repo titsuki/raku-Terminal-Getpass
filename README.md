@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/titsuki/p6-Terminal-Getpass.svg?branch=master)](https://travis-ci.org/titsuki/p6-Terminal-Getpass)
+[![Build Status](https://travis-ci.org/titsuki/raku-Terminal-Getpass.svg?branch=master)](https://travis-ci.org/titsuki/raku-Terminal-Getpass)
 
 NAME
 ====
 
-Terminal::Getpass - A getpass implementation for Perl 6
+Terminal::Getpass - A getpass implementation for Raku
 
 SYNOPSIS
 ========
@@ -16,7 +16,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Terminal::Getpass is a getpass implementation for Perl 6.
+Terminal::Getpass is a getpass implementation for Raku.
 
 METHODS
 -------

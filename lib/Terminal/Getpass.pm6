@@ -65,7 +65,7 @@ my sub win-getpass(Str $prompt!, IO::Handle $stream? --> Str) {
 
 =head1 NAME
 
-Terminal::Getpass - A getpass implementation for Perl 6
+Terminal::Getpass - A getpass implementation for Raku
 
 =head1 SYNOPSIS
 
@@ -76,7 +76,7 @@ Terminal::Getpass - A getpass implementation for Perl 6
 
 =head1 DESCRIPTION
 
-Terminal::Getpass is a getpass implementation for Perl 6.
+Terminal::Getpass is a getpass implementation for Raku.
 
 =head2 METHODS
 
