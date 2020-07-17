@@ -2,6 +2,9 @@ Revision history for Terminal-Getpass
 
 {{$NEXT}}
 
+0.0.7  2020-07-17T22:49:47+09:00
+   - Replace Perl 6 with Raku
+
 0.0.6  2018-03-21T09:13:00+09:00
    - Use krunen's one instead of mine (Term::Termios)
 
