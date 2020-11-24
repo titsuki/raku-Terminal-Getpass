@@ -54,7 +54,7 @@ my sub win-getpass(Str $prompt!, IO::Handle $stream? --> Str) {
         last if so $c == any("\r".ord, "\n".ord);
         die if $c == 3;
         if $c == "\b".ord {
-            $phrase = $phrase.chop
+            $phrase .= chop;
         } else {
             $phrase ~= $c.chr;
         }
