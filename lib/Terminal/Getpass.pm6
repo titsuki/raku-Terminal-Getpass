@@ -28,6 +28,9 @@ my sub unix-getpass(Str $prompt!, IO::Handle $stream! --> Str) {
         if $c.unpack("C*") == 3 {
             $old.setattr(:DRAIN);
             die;
+        } elsif $c.unpack("C*") == 127 {
+	    $phrase .= chop;
+	    next;
         }
         $phrase ~= $c.decode("utf-8");
     }
