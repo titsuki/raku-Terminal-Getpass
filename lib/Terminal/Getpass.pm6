@@ -27,7 +27,7 @@ my sub unix-getpass(Str $prompt!, IO::Handle $stream! --> Str) {
         last if $c.decode("utf-8") ~~ /\n/;
         if $c.unpack("C*") == 3 {
             $old.setattr(:DRAIN);
-            die;
+            exit 128 + SIGINT;
         } elsif $c.unpack("C*") == 127 {
 	    $phrase .= chop;
 	    next;
@@ -52,7 +52,7 @@ my sub win-getpass(Str $prompt!, IO::Handle $stream? --> Str) {
         my Int $c = _getch;
 
         last if so $c == any("\r".ord, "\n".ord);
-        die if $c == 3;
+        exit 0 if $c == 3;
         if $c == "\b".ord {
             $phrase .= chop;
         } else {
