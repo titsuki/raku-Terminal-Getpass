@@ -4,7 +4,7 @@
   ],
   "build-depends" : [ ],
   "depends" : [
-    "Term::termios:author<github:krunen>"
+    "Term::termios"
   ],
   "description" : "A getpass implementation for Raku",
   "license" : "Artistic-2.0",
