@@ -2,6 +2,9 @@ Revision history for Terminal-Getpass
 
 {{$NEXT}}
 
+0.0.9  2021-02-14T13:16:21+09:00
+   - Exit by Ctrl-C returns the same code as prompt does
+
 0.0.8  2020-11-24T23:06:14+09:00
    - Enable to use backspace on Linux (partially solve [#9])
 
