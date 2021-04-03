@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/titsuki/raku-Terminal-Getpass.svg?branch=master)](https://travis-ci.org/titsuki/raku-Terminal-Getpass)
+[![Actions Status](https://github.com/titsuki/raku-Terminal-Getpass/workflows/test/badge.svg)](https://github.com/titsuki/raku-Terminal-Getpass/actions)
 
 NAME
 ====
