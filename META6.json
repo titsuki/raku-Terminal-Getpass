@@ -1,21 +1,26 @@
 {
-  "authors" : [
-    "titsuki"
+  "auth": "titsuki",
+  "authors": [
+    "Itsuki Toyota"
   ],
-  "build-depends" : [ ],
-  "depends" : [
+  "build-depends": [
+  ],
+  "depends": [
     "Term::termios"
   ],
-  "description" : "A getpass implementation for Raku",
-  "license" : "Artistic-2.0",
-  "name" : "Terminal::Getpass",
-  "perl" : "6.c",
-  "provides" : {
-    "Terminal::Getpass" : "lib/Terminal/Getpass.pm6"
+  "description": "A getpass implementation for Raku",
+  "license": "Artistic-2.0",
+  "name": "Terminal::Getpass",
+  "perl": "6.c",
+  "provides": {
+    "Terminal::Getpass": "lib/Terminal/Getpass.pm6"
   },
-  "resources" : [ ],
-  "source-url" : "https://github.com/titsuki/raku-Terminal-Getpass.git",
-  "tags" : [ ],
-  "test-depends" : [ ],
-  "version" : "0.0.9"
+  "resources": [
+  ],
+  "source-url": "https://github.com/titsuki/raku-Terminal-Getpass.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.9"
 }
