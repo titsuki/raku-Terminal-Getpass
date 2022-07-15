@@ -23,7 +23,8 @@ my sub unix-getpass(Str $prompt!, IO::Handle $stream! --> Str) {
     $stream.print: $prompt;
     my Str $phrase = "";
     loop {
-        my $c = $*IN.read(1);
+        my $c = buf8.new;
+        $c.append($*IN.read(1)) until try $c.decode('utf-8');
         last if $c.decode("utf-8") ~~ /\n/;
         if $c.unpack("C*") == 3 {
             $old.setattr(:DRAIN);
