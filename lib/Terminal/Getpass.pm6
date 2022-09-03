@@ -1,5 +1,5 @@
 use v6.c;
-unit module Terminal::Getpass:ver<0.0.10>;
+unit module Terminal::Getpass:auth<zef:titsuki>:ver<0.0.11>;
 
 sub getpass(Str $prompt = "Password: ", IO::Handle $stream = $*ERR --> Str) is export {
     if $*DISTRO.is-win {

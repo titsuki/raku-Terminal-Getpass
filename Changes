@@ -2,6 +2,9 @@ Revision history for Terminal-Getpass
 
 {{$NEXT}}
 
+0.0.11  2022-09-03T16:34:41+09:00
+   - Upload to zef instead of cpan
+
 0.0.10  2022-07-17T00:04:02+09:00
    - Read Unicode characters completely, before trying to decode them as utf-8
 
